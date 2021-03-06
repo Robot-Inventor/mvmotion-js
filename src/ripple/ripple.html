@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <ripple-element></ripple-element>
+        <style>
+            ripple-element {
+                position: absolute;
+                top: 50vh;
+                left: 50vw;
+                transform: translate(-50%, -50%);
+                --begin-color: red;
+                width: 80vmin;
+                height: 80vmin;
+            }
+
+            html,
+            body,
+            main {
+                background: white;
+            }
+        </style>
+        <script src="ripple.js"></script>
+    </body>
+</html>
